@@ -16,7 +16,7 @@ const speechRecognition = new SpeechRecognition(function (eventName, event) {
       break;
   }
 });
-
+console.log('xxx4')
 speechRecognition.start();
 
 const commands = {
